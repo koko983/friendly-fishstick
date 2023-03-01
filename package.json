@@ -1,0 +1,16 @@
+{
+  "name": "azure_poc",
+  "version": "1.0.0",
+  "description": "This is to demo an Express NodeJs API integration with Azure DevOps in different stages. Some of the things it aims to demo:\r 1. multiple branches and how they play with other stuff\r 2. build pipelines, answering questions like:\r     - how they play with different branches\r     - roles of something like yml file \"target\" and file placements in different branches\r 3. release pipelines, with the goal to publish API to:\r     - our AWS instance\r     - (Maybe) Azure service infrastructure\r    Also, how release pipelines should get triggered, \r 4. how to manage secure keys using the azure secure vault\r 5. maybe the proof",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.276.0"
+  },
+  "type": "module"
+}
