@@ -32,6 +32,7 @@ import {
   console.log(secret);
   let obj ={};
   if(typeof(secret)=="string"){
+    console.log('it is!');
     obj = JSON.parse(secret);
   }else{
     obj = secret;
