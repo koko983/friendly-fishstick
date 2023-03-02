@@ -29,5 +29,14 @@ import {
   }
   
   const secret = response.SecretString;
+  console.log(secret);
+  let obj ={};
+  if(typeof(secret)=="string"){
+    obj = JSON.parse(secret);
+  }else{
+    obj = secret;
+  }
+  console.log('koko is ', obj.koko);
+
   
   // Your code goes here
